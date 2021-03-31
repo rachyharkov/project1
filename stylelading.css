@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.header h1 {
+  font-family: 'Dancing Script', kursif;
+  font-size: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box
+}
+.header h2 {
+  font-size: 30px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0px;
+  background-color: white;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.13);
+}
+
+.logo {
+	display: flex;
+	font-weight: bold;
+	color:red;
+	font-size: 20px;
+}
+
+.logo img {
+	padding: 10px;
+	width: 90px;
+}
+
+.logo h1:nth-child(2) {
+  color: green;
+}
+
+ul {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap; 
+  font-size: 20px;
+}
+
+li {
+	margin-left: 16px;
+	list-style-type: none; 
+}
+
+a {
+	font-size: 18px;
+	font-weight: 400px;
+	text-decoration: none;
+	color: #4e4e4e
+}
+
+a:hover {
+  padding: 8px;
+  color: aqua;
+  font-weight: bold;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container h4 {
+  text-align: left;
+  padding-left: 220px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/14_office-mockups.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  padding: 20px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  color: green;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+main {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  flex: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.content {
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  margin-top: 12px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+figcaption {
+  padding-bottom: 20px;
+  border-radius: 10;
+  border-bottom: 2px solid currentcolor;
+  line-height: : 0;
+}
+
+.content h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.content p {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.content2 {
+  padding-bottom: 60px;
+}
+
+.sayarat {
+  flex: 0px;
+}
+
+.fungsi-kerja {
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.fungsi-kerja h4 {
+  border-bottom: 2px solid currentcolor;
+}
+
+.fungsi-kerja p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.Jenjang {
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.Jenjang h4 {
+  border-bottom: 2px solid currentcolor;
+}
+
+.Jenjang  p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.Pengalaman {
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.Pengalaman h4 {
+  border-bottom: 2px solid currentcolor;
+}
+
+.Pengalaman  p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.jurusan {
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.jurusan h4 {
+  border-bottom: 2px solid currentcolor;
+}
+
+.jurusan  p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.lulusan {
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.lulusan h4 {
+  border-bottom: 2px solid currentcolor;
+}
+
+.lulusan  p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+div.alert, p.notice, p.alert {
+    padding: 15px;
+    border: 1px solid transparent;
+}
+
+.alert-danger-custom {
+    background-color: #FFE3E5;
+    color: #CB0000;
+    border-left: thick solid #CB0000 !important;
+}
+
+.judul {
+  border-bottom: 2px solid currentcolor;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tentang p {
+  font-size: 16px;
+  line-height: 2;
+}
+
+
+div {
+    display: block;
+}
+
+.iconify{
+  margin: 0px;
+}
+
+.salary {
+  color: green;
+}
+
+ .info h3 , a {
+  color: blue;
+}
+
+
+header {
+    padding: 10px;
+}
+
+/*----- button info PT ----- */
+button.\-\-blue, a.b-button.\-\-blue, span.b-button.\-\-blue, input[type="submit"].\-\-blue {
+    background-color: #1b61ad;
+    color: #ffffff;
+}
+
+button.\-\-wide, a.b-button.\-\-wide, span.b-button.\-\-wide, input[type="submit"].\-\-wide {
+    width: 100%;
+}
+
+button, a.b-button, span.b-button, input[type="submit"] {
+    -webkit-font-smoothing: antialiased;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
+    line-height: 16px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: rgba(255,255,255,0.9);
+    background-color: #1F96FF;
+    box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 10%), 0px 2px 2px 0px rgb(0 0 0 / 20%);
+    border-radius: 2px;
+}
+
+a {
+    transition: color 0.1s linear;
+    color: #1F96FF;
+    text-decoration: none;
+}
+
+.button {
+  padding-top: 60px;
+}
+
+/*-----login Grup facebook----*/
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: red;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
